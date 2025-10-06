@@ -6,12 +6,26 @@ Create algorithm explanation videos with Dr. Doofenshmirtz's voice over Minecraf
 
 1. **Install Python 3.8+** and **FFmpeg**
 
-2. **Install dependencies:**
+2. **Create virtual environment:**
+   ```bash
+   python -m venv venv
+   ```
+
+3. **Activate virtual environment:**
+   ```bash
+   # Windows
+   venv\Scripts\activate
+   
+   # Linux/Mac
+   source venv/bin/activate
+   ```
+
+4. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Add required files:**
+5. **Add required files:**
    ```
    backgrounds/minecraft.mp4     # Gameplay video
    voices/dr_doof.wav           # Voice sample
@@ -21,12 +35,12 @@ Create algorithm explanation videos with Dr. Doofenshmirtz's voice over Minecraf
    images/doof_smug.png
    ```
 
-4. **Run the app:**
+6. **Run the app:**
    ```bash
    python app.py
    ```
 
-5. **Open browser:** http://localhost:7860
+7. **Open browser:** http://localhost:7860
 
 ## How to Use
 
