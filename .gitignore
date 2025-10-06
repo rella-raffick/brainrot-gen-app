@@ -52,8 +52,7 @@ temp-audio.m4a
 *.mov
 *.jpg
 *.jpeg
-*.ttf
-*.otf
+
 
 # Model cache
 .cache/
